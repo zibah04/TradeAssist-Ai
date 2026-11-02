@@ -28,7 +28,10 @@
     "requirements.txt",
     "storage/.gitkeep",
     "tests/test_boundaries.py",
-    "tests/test_core.py"
+    "tests/test_core.py",
+    "ngxintel/messages.py",
+    "tests/test_messages.py",
+    "tests/test_app.py"
   ],
   "data_included": "synthetic only",
   "live_order_execution": false

@@ -2,6 +2,14 @@
 
 A runnable Python/Streamlit research tool for the Nigerian Exchange. It **does not** connect to a broker, place orders, predict with calibrated AI probabilities, or make financial decisions for you.
 
+### A simpler dashboard
+
+Start in **Stock updates** to read plain-language messages for each stock. They explain a recorded rise or fall, give the existing research suggestion in everyday words, and show the source and observation time. Suggestions appear as **Worth a closer look**, **Review shares you own**, or **Wait and watch**. A price drop alone is not treated as a reason to buy. Technical settings and detailed calculations are available in expandable sections.
+
+**News explained** shows a short explanation of each headline's wording, its publisher, publication date, and source link. These are keyword-based reading aids, not verified predictions of a price rise or fall. Optional AI explanations use everyday language as well.
+
+Messages are displayed inside the app when you load prices or change settings. There are no background, phone, email, or desktop push notifications. Practice-mode messages always refer to fictional data.
+
 ### What is already working
 
 - **Three data routes:** built-in **fictional synthetic demo**, manually uploaded **CSV historical OHLCV**, and documented **Investo API** daily price-history endpoint (requires your own key).
